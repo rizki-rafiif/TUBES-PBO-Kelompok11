@@ -1,6 +1,7 @@
 # Implementasi OOP Pada Program Kasir Rumah Makan (Javascript)
 [![fnJQWX.md.png](https://iili.io/fnJQWX.md.png)](https://freeimage.host/i/fnJQWX)
 
+
 # Group Members
 | Nama | NIM | Kelas |
 | -- | -- | -- |
@@ -8,13 +9,41 @@
 | Muhammad Fajar Ahadi | 19104007 | SE03A |
 | Sofiyudin Pamungkas | 19104001 | SE03A |
 
-# General Explanation
+
+
+# Background
+Pemanfaatan perangkat komputer dalam membatu proses transaksi sebagai mesin kasir mempermudah proses jual beli yang awalnya menggunakan cara manual dengan menulis daftar barang yang di beli pada sebuah nota pembelian kemudian di hitung menggunakan kalkulator. 
+
+Teknologi berperan penting dalam manajemen suatu usaha dagang, program kasir pada sebuah komputer saat ini merupakan hal yang sangat diperlukan pada sebuah rumah makan. Hal tersebut karena, dengan adanya sistem tersebut pekerjaan akan sangat dimudahkan, dimana pengguna hanya perlu menginputkan pesanan dan sistem akan menghitung totalnya.
+
 Program ini dibuat dengan menggunakan bahasa pemrograman Javascript dengan menerapkan Pemrograman Berorientasi Objek / PBO / OOP. Tema yang digunakan yaitu kasir rumah makan, dimana program dapat digunakan untuk menghitung pesanan pembeli, memperlihatkan struk pesanan dan menggunakan program lagi tanpa harus keluar.
+
+
+
+# Purpose
+Tujuan pembuatan applikasi ini ialah untuk memudahkan pengguna dalam mencatat dan menghitung total pesanan dan pembayaran pelanggan mereka.
+
+
+
+# Features
+Pada applikasi kasir milik kami, terdapat fitur berupa : 
+
+a.	Menginputkan jumlah pesanan dan kemudian menghitungnya (Total).
+
+b.	Bisa memperlihatkan hasil pesanan yang telah dicatat.
+
+c.	Dapat menghapus daftar pesanan yang dicatat sehingga tidak perlu keluar dari appikasi bila ingin mennggunakannya kembali.
+
+d.	Hasil pembayaran bisa minus bila pembayaran yang diinputkan kurand dari total pesanan.
+
+
+
 
 # Class Diagram
 [![fnVm4S.md.png](https://iili.io/fnVm4S.md.png)](https://freeimage.host/i/fnVm4S)
 
-# Tutorial Penggunaan
+
+# Tutorial
 1. Jalankan program. Program dapat dijalankan selama node.js sudah terinstall pada perangkat komputer tersebut (Pada beberapa kejadian mungkin perlu megninstall library promt-sync terlebih dulu dengan cara mengetikkan syntax :
 	**npm i prompt-sync**
 	pada terminal, untuk penjelasan lebih lanjut : [prompt-sync - npm (npmjs.com)](https://www.npmjs.com/package/prompt-sync)).
